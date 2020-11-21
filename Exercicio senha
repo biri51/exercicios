@@ -1,7 +1,7 @@
 Function senhaValida (senha, login) {  
     if( 
         senha.length < 8 ||
-        senha.indexof(' ') !== -1
+        senha.indexof(' ') !== -1 ||
         senha.indexof(login) !== -1
     ){   
         return false;
