@@ -8,6 +8,7 @@
 
 let pangram;
 function muitasLetras(pangram) {
+    pangram.toLowerCase()
 for (let letras of 'abcdefghijklmnopqrstuvxwz'){
     if pangram.indexOf(letras) === -1 {
         return false;
