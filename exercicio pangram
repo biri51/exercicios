@@ -7,8 +7,8 @@
 // isPangram('The five boxing wizards jump quick') //false
 
 let pangram;
-function muitasLetras(pangram) {
-   let minusculas = pangram.toLowerCase()
+function isPangram(pangram) {
+   let minusculas = pangram.toLowerCase();
 for (let letras of 'abcdefghijklmnopqrstuvxwz'){
     if minusculas.indexOf(letras) === -1 {
         return false;
