@@ -8,9 +8,9 @@
 
 let pangram;
 function muitasLetras(pangram) {
-    pangram.toLowerCase()
+   let minusculas = pangram.toLowerCase()
 for (let letras of 'abcdefghijklmnopqrstuvxwz'){
-    if pangram.indexOf(letras) === -1 {
+    if minusculas.indexOf(letras) === -1 {
         return false;
     }
 }
